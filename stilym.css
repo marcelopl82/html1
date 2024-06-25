@@ -1,0 +1,16 @@
+ 
+div{width: 400px;height: 500px;
+background: chocolate;}
+
+
+h1{color: black;}
+
+
+@media screen and   (max-width: 1000px){
+
+div{background-color: aquamarine;}
+
+
+
+}
+    
