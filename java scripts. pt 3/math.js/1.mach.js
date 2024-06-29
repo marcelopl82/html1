@@ -6,12 +6,19 @@ ceil/teto= arrendodar para cima
 floor/ chão = arrendodar para baixo
  
 
-random()/ números aliatórios entre 0 , 1*/
+random()/ números aliatórios entre 0 , 1
 
-const result = Math.pow(2,3)
+const result = Math.pow(2,3)*/
 
 
 
+let result= 20
+result=result+90
 console.log(result)
+
+
+
+
+
 
 
