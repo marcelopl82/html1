@@ -37,11 +37,22 @@ operadores de atribuição
  >= maior ou igual
  <=menor ou igual
 
- */
+ 
 
 const firstnumber=30
 const seccontnumber=30
 console.log(seccontnumber>=firstnumber)
+/*
+
+//AULA 08/07/24
+IF(SE)
+ELSE (SE NÃO)*/
+const temperature = 40
+if (temperature === 36) {
+
+    console.log("estou bem")
+}
+else if (temperature > 36 && temperature <= 40) { console.log("esta com febre") } else if (temperature > 40) { console.log("muita febre") }
 
 
-
+else { console.log("estou doente") } 
