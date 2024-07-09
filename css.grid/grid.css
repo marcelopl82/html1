@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;display: grid;
+    grid-template-columns: 100px 100px 100px 100px
+
+
+}
+
+.space {
+    color: white;
+    font-size: 30px;
+}
+
+.one {
+    background: aquamarine;
+}
+
+.two {
+   background : brown;
+}
+
+.three {
+    background: chocolate;
+}
+
+.four {
+    background: crimson;
+}
+
+.five {
+    background: red;
+}
+
+.six {
+    background: blueviolet;
+}
+
+.seven {
+    background: blue;
+}
+
+.eight {
+    background: burlywood;
+}
+
+.nine {
+    background: cadetblue;
+}
