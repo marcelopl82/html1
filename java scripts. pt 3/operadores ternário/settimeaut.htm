@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>set time</title>
+</head>
+<h1>0</h1>
+<button onclick="stop()">stop</button>
+<button onclick="start()">start</button>
+
+<body>
+    <script>
+        /*setTimeout = executa uma vez
+        setInterval= executa infinita vezes(() => )== e a mesma function
+         setTimeout( function () {executa o que estiver aqui 
+            alert("tempo passou 5 sedundo")
+         } ,5000);//1000= milisegundo = 1 segundo{ 
+          clearinterva==> vai dar pause o setinterval*/
+        let number = 0
+        let cron
+        let h1 = document.querySelector("h1")
+
+        function start() {
+            cron = setInterval(function () {
+                number++
+                h1.innerHTML
+                    = number
+            }, 1000)
+
+        }
+
+        function stop() {
+            clearInterval(cron)
+
+        }
+
+        setInterval(() => {
+            console.log
+
+
+
+            (Number++)
+        }, 1000);
+
+
+
+
+    </script>
+</body>
+
+</html>
