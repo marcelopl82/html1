@@ -8,7 +8,7 @@ expressão final = o que ira ocorrer a cada vez nosso laço*/
 
     for (i =0 ; i  < 15 ; i++){
         console.log(i)
-    }*/
+    }
 
 const users =
     "maria "
@@ -18,4 +18,4 @@ const users =
 "francisco"
 
 
-for (let i = 0; i < users.length; i++) { console.log(users[i])  }
+for (let i = 0; i < users.length; i++) { console.log(users[i]) }*/
