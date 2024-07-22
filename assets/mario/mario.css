@@ -1,45 +1,119 @@
-*{margin: 0;
-padding: 0; 
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    font-family: "Mukta", sans-serif;
-      }
-   body{background-color: rgb(224, 224, 224);}
+  font-family: "Mukta", sans-serif;
+}
+
+body {height: 100vh;top: 0;
+  
+  
+}
+
+.caixa-mae{
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+  height: 100vh;
+}
+.caixa-p1 {
+  width: 40%;
 
 
-.fale-conosco {background: white;
-display: flex;
-flex-direction: column; 
-align-items: flex-end;
-padding: 20px; 
- border-radius: 10px;
-gap: 20px;
-position: fixed;
-left: -320px;
-transition :left 1s linear; 
-z-index: 4;}
 
 
-input{height: 40px;
-border-radius: 3px;
-border: 1px solid rgb(235, 136, 136) ;
-padding-left: 3px ;
-outline-color: aquamarine;}
+  
+}
 
-textarea{height: 90px;
-    width: 300px;
-    border-radius: 3px;
-    border: 1px solid gray ;
-    padding: 10px ;
-    outline-color: aquamarine;}
-    
-    .mascara-form{ 
-      visibility: hidden;
-      height: 100vh;
-    width: 100vw; 
-    position: fixed;
-    top: 0;
-    z-index: 3;
-    background: linear-gradient(109deg, rgba(10, 12,16, 0.99)15%,  rgba( 10, 12, 16, 0.7) 50% ,  rgba(10, 12, 16, 0.99)99%)}
+.caixa-p2{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
 
-    img{width: 130px ;height: 130px;}
+
+img {
+  height: 362px;
+  width: 250 0px;
+}
+
+.img-2 {
+  height: 500px;
+  width: 500px;
+}
+
+button {
+  color: white;
+  background: #c51111;
+  border: none;
+  border-radius: 3px;
+  font: size 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+p {
+  color: black;
+  font-size: 20px;
+  font-weight: 20px;
+}
+
+.video-mario{position: fixed
+;z-index: -1;top: 0;
+
+}
+
+
+video{width: 100vw;
+  height: 100vh;}
+
+.fale-conosco {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 20px;
+  position: fixed;
+  left: -320px;
+  transition: left 1s linear;
+  z-index: 4;
+}
+
+
+input {
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid rgb(235, 136, 136);
+  padding-left: 3px;
+  outline-color: aquamarine;
+}
+
+textarea {
+  height: 90px;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 10px;
+  outline-color: aquamarine;
+}
+
+.mascara-form {
+  visibility: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99)99%)
+}
+
