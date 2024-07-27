@@ -2,15 +2,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
+
   font-family: "Mukta", sans-serif;
 }
 
 body {
   height: 100vh;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  gap: 30px;
+
+}
+
+.menu img {
+  height: 60px;
+}
+
+.menu a {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;text-transform: uppercase;
+}
 
 
-
+.menu a:hover{ color: #c51111;font-size: 16px;transition: 0.4s ease-in-out;
+   
 }
 
 .caixa-mae {
@@ -18,8 +38,9 @@ body {
 
   align-items: center;
   justify-content: space-around;
-  padding: 100px;
-  height: 100vh;
+  padding: 70px;
+  height: 80vh;
+  
 }
 
 .caixa-p1 {
@@ -39,8 +60,8 @@ body {
 
 
 img {
-  height: 362px;
-  width: 250 0px;
+  height: 200px;
+
 }
 
 .img-2 {
@@ -52,20 +73,26 @@ button {
   color: white;
   background: #c51111;
   border: none;
-  border-radius: 3px;
-  font: size 23px;
+  border-radius: 8px;
+  font: size 15px;
   text-transform: uppercase;
   font-weight: bold;
 
   width: 200px;
   height: 50px;
   cursor: pointer;
+  margin-top: 50px;
 }
 
+  button:hover{color: blue; transition:0.5s;text-transform: uppercase;}
 
+
+
+p,
 p {
-  color: black;
-  font-size: 20px;
+  width: 600px;
+  color: white;
+  font-size: 15px;
   font-weight: 20px;
 }
 
@@ -79,27 +106,42 @@ p {
 
 video {
 
-  height: 100vh;
+  min-width: 100%;
+  min-height: 100%
+  ;position: fixed;
+  top: 0;
 
 }
- .mascara {
+
+.mascara {
   width: 100%;
-height: 100%;
-background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99)99%);
-position: fixed;
-top : 0;}
+  height: 100%;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99)99%);
+  position: fixed;
+  top: 0;
+}
 
+.link-whatsapp img {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
 
-/*.fale-conosco {
+.fale-conosco {
   background: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  
   padding: 20px;
   border-radius: 10px;
   gap: 20px;
   position: fixed;
-  left: -320px;
+  top: 35%;
+  left:-322px;
+  
   transition: left 1s linear;
   z-index: 4;
 }
@@ -108,7 +150,7 @@ top : 0;}
 input {
   height: 40px;
   border-radius: 3px;
-  border: 1px solid rgb(235, 136, 136);
+  border: 1px solid gray;
   padding-left: 3px;
   outline-color: aquamarine;
 }
@@ -129,5 +171,5 @@ textarea {
   position: fixed;
   top: 0;
   z-index: 3;
-  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99)99%)
-}*/
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99)85%);
+}
