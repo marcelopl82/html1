@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,9 @@
 
 
 <body>
- <div class = "mascara-form" onclick= "esconderform()"></div>
+    <div class="mascara-form" onclick="esconderform()">
+
+    </div>
 
     <div class="menu" alt="logo-mario">
         <img src="./img/logo-header.png" alt="head-mario">
@@ -37,14 +39,19 @@
 
         <div class="caixa- p1">
             <img src="./logo.png" alt="logo do mario">
+<div>
             <p>Encanadores- Mario&Luigi-Resolvendo seus poblemas Hidraulicos Com Estilo!</p>
             <p>
-                Você já se encontrou em uma situação de emêrgencia com encanamento?Vazamentos inesperado,canos entupidos
+                Você já se encontrou em uma situação de emêrgencia com encanamento?
+                Vazamentos inesperado,canos entupidos
+               
                 ou torneiras que não param de pingar,Não se preocupe, porque estamos aqui para salvar seu dia!
+                
                 Apresentamos a vocês os encanadores mais famosos do reino
+                
                 dos gogumelos - Mario & Luigi!
             </p>
-
+</div>
 
             <button onclick="mostrarform()">entre em contato</button>
         </div>
@@ -58,19 +65,26 @@
         <video src=".//img/Videos/video.mp4" autoplay muted loop></video>
 
 
-        <div class="video-mascara"></div>
+        <div class="video-mascara"> </div>
 
-       
 
-        <a href="https://api.whatsapp.com/send?phone=5541955599959&text=Encanadores-%20Mario&Luigi-Resolvendo%20seus%20poblemas%20Hidraulicos%20Com%20Estilo!"
-            class="link-whatsapp">
-            <img src="./img/Videos/Captures/whatsapp.png" alt="link- whatsapp">
-        </a>
+
+        <div>
+
+            <a href="https://api.whatsapp.com/send?phone=5541955599959&text=Encanadores-%20Mario&Luigi-Resolvendo%20seus%20poblemas%20Hidraulicos%20Com%20Estilo!"
+                class="link-whatsapp">
+                <img src="./img/Videos/Captures/whatsapp.png" alt="link- whatsapp" class="link">
+            </a>
+        </div>
     </div>
-    <form class="fale-conosco">
-        <input placeholder="seu nome"><input placeholder="telefone">
-        <textarea>qual e o seu poblema:</textarea>
-        <button>pedir orçamento</button>
+    <form class="fale-conosco" 
+     action="https://formcarry.com/s/rkbtW_B7499"
+        method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="seu nome" type="text"name="nome">
+        <input placeholder="telefone"type="telefone" name="telefone">
+        <textarea placeholder="qual e o seu poblema:" name ="duvidas"></textarea>
+        <button type="submit">pedir orçamento</button>
     </form>
 
 

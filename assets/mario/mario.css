@@ -92,9 +92,16 @@ p,
 p {
   width: 600px;
   color: white;
-  font-size: 15px;
-  font-weight: 20px;
+  font-size: 18px;
+  font-weight: 200;
 }
+
+
+
+
+
+
+
 
 .video-mario {
   position: fixed;
@@ -121,13 +128,13 @@ video {
   top: 0;
 }
 
-.link-whatsapp img {
+.link-whatsapp ,.link {
   width: 50px;
   height: 50px;
   position: fixed;
   right: 20px;
   bottom: 20px;
-  cursor: pointer;
+cursor: pointer;
 }
 
 .fale-conosco {
@@ -143,7 +150,7 @@ video {
   left: -322px;
   text-transform: uppercase;
   transition: left 1s linear;
-  ;
+  
 }
 .fale-conosco:hover{background: rgb(199, 202, 245);}
 
@@ -174,4 +181,5 @@ visibility:hidden;
   z-index: 3;
   background: rgb(88, 95, 133);
   background: linear-gradient(68deg, rgb(250, 226, 146) 5%, rgba(17,34,32,0.7259278711484594) 67%);
+  transition: 1s ease-in-out;
 }
