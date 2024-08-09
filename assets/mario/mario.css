@@ -81,7 +81,8 @@ button {
   width: 200px;
   height: 50px;
   cursor: pointer;
-  margin-top: 50px;
+  margin-top: 50px;margin-left: 44px;
+  
 }
 
   button:hover{color: blue; transition:0.5s;text-transform: uppercase;}
@@ -142,7 +143,7 @@ cursor: pointer;
   display: flex;
   flex-direction: column;
   z-index: 3;
-  padding: 20px;
+  padding: 18px;
   border-radius: 10px;
   gap: 20px;
   position: fixed;
@@ -150,6 +151,10 @@ cursor: pointer;
   left: -322px;
   text-transform: uppercase;
   transition: left 1s linear;
+  border: 11px groove rgba(235, 230, 230, 0.973); /* Estilo de borda 3D */
+  
+
+  margin: 0 auto;
   
 }
 .fale-conosco:hover{background: rgb(199, 202, 245);}
