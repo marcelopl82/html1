@@ -18,3 +18,6 @@ function mostrarform() {
   mascara.style.visibility
     = "hidden"
 }
+const fale=document.querySelector(".fale")
+function fale() {}
+  
