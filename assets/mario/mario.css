@@ -188,3 +188,16 @@ visibility:hidden;
   background: linear-gradient(68deg, rgb(250, 226, 146) 5%, rgba(17,34,32,0.7259278711484594) 67%);
   transition: 1s ease-in-out;
 }
+/*@media(max-width:  1030px){
+ p,p{display: none;}
+}
+
+.caixa-mae {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+  padding: 70px;
+  height: 80vh;flex-direction: column;
+}
+  
