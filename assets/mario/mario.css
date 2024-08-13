@@ -188,16 +188,39 @@ visibility:hidden;
   background: linear-gradient(68deg, rgb(250, 226, 146) 5%, rgba(17,34,32,0.7259278711484594) 67%);
   transition: 1s ease-in-out;
 }
-/*@media(max-width:  1030px){
+
+
+
+@media(max-width:  928px){
  p,p{display: none;}
-}
+ 
 
-.caixa-mae {
-  display: flex;
-
-  align-items: center;
-  justify-content: space-around;
-  padding: 70px;
-  height: 80vh;flex-direction: column;
-}
+  .caixa-mae {
+    
+    padding: 12px;
+    
+    justify-content: flex-start;
+    flex-direction: column;
   
+}
+  .caixa-p1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;}
+
+
+    .img-2{width: 80vw;
+      height: auto;}
+
+.menu img
+{display: none;}
+
+.menu {margin: 22px;
+  display: flex;
+  align-items: center;
+  justify-items: center;}
+
+.menu a{font-size: 15px;}
+
+
+}
