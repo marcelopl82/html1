@@ -16,46 +16,67 @@
     let p = document.querySelector("p")
     let input = document.querySelector("input")
 
+    /* const contacts = [
+         { name: "nicollas", number: "(55)934343434" },
+         { name: "fernanda", number: "(41)934343434" },
+         { name: "carla", number: "(23)934343434" },
+         { name: "camila", number: "(18)934343434" },
+         { name: "wilian", number: "(40)934343434" },
+     ]
+ 
+   /*  function procurar() { let found = false;
+         let i = 0;
+         while (i < contacts.length) {
+             const contact = contacts[i];
+             if (input.value.toLowerCase() === contact.name.toLowerCase()) {
+                 p.innerHTML = `Contato encontrado Name: ${contact.name} Tel: ${contact.number}`;
+                 found = true;
+                 break;
+             }
+             i++;
+         }
+ 
+         if (!found) {
+             p.innerHTML = "Contato não encontrado, tente novamente";
+         }
+     }
+ 
+ 
+ /* for (const contact of contacts) {
+             if (input.value.toLowerCase() === contact.name.toLowerCase()) {
+                 p.innerHTML = `contato encontrado name: ${contact.name}tel. ${contact.number}`
+                 break}
+             else { p.innerHTML = "contato não encontrado ,tente novamente" }*/
+
+
     const contacts = [
         { name: "nicollas", number: "(55)934343434" },
         { name: "fernanda", number: "(41)934343434" },
         { name: "carla", number: "(23)934343434" },
         { name: "camila", number: "(18)934343434" },
-        { name: "wilian", number: "(40)934343434" },
-    ]
+        { name: "wilian", number: "(40)934343434" },]
 
-    function procurar() { let found = false;
-        let i = 0;
-        while (i < contacts.length) {
-            const contact = contacts[i];
+
+
+           
+        
+
+    function procurar() {
+        contacts.forEach(contact => {
+
+
             if (input.value.toLowerCase() === contact.name.toLowerCase()) {
-                p.innerHTML = `Contato encontrado Nome: ${contact.name} Tel: ${contact.number}`;
-                found = true;
-                break;
+                p.innerHTML = `Contato encontrado Name: ${contact.name} Tel: ${contact.number}`
+                
             }
-            i++;
-        }
+            else (p.innerHTML = "contato não encontrado ,tente novamente")
+        });
 
-        if (!found) {
-            p.innerHTML = "Contato não encontrado, tente novamente";
-        }
+
     }
-
-
-/* for (const contact of contacts) {
-            if (input.value.toLowerCase() === contact.name.toLowerCase()) {
-                p.innerHTML = `contato encontrado name: ${contact.name}tel. ${contact.number}`
-                break}
-            else { p.innerHTML = "contato não encontrado ,tente novamente" }*/
-
-
-
-
-    
-    
 
 
 
 </script>
-
+    
 </html>
