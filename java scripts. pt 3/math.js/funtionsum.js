@@ -29,7 +29,7 @@ const cart = [10, 65, 150, 90, 40]
 let valuefinal = 0
 
 cart.forEach(value => {
-    valuefinal = valuefinal + (value - discount)
+    
 
     if (value > 65) { const discount = calculatdiscount(value, 10) 
     valuefinal = valuefinal + (value - discount)}
