@@ -1,34 +1,42 @@
-*{ margin : 0;
-    padding: 0; 
-    box-sizing: border-box}
- 
-
-body{background: url(https://img.freepik.com/fotos-premium/criacao-de-inteligencia-artificial-ai-por-robos-humanos-e-maos-humanas-estao-tocando-e-se-conectando_154993-1648.jpg?w=2000)
-    ;display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;   
-     background-size: cover;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
 
 
-.container{padding: 22px;
-    border-radius: 10px;
-    background-color: #dd6868cc;
+body {
+    background: url(  https://picsum.photos/1600/900 );
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-;}
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+
+    .container {
+        padding: 22px;
+        border-radius: 10px;
+        background-color: #dd6868cc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+}
 
 
 
 
-    .buttons{display: flex;
-        gap: 40px;
-        margin: 30px 0;}
+.buttons {
+    display: flex;
+    gap: 40px;
+    margin: 30px 0;
+}
 
 
-button{padding: 25px;
+button {
+    padding: 25px;
     font-size: 60px;
     cursor: pointer;
     border: none;
@@ -36,29 +44,43 @@ button{padding: 25px;
 
 }
 
-button:hover {opacity: 0.7;
+button:hover {
+    opacity: 0.7;
     transition:
-    opacity 0.5s ease-in-out;}
+        opacity 0.5s ease-in-out;
+}
 
-#rock{background-color:#2ff360cc ;}
-#paper{background-color: #d70ee9cc;}
-#scissors{background-color:#2f32f3cc ;}
+#rock {
+    background-color: #2ff360cc;
+}
+
+#paper {
+    background-color: #d70ee9cc;
+}
+
+#scissors {
+    background-color: #2f32f3cc;
+}
 
 
-p  {font-weight: 500;
+p {
+    font-weight: 500;
     margin-bottom: 10px;
-    }
+}
 
-   .your-score , span {color: #717cdbcc;
-    font-size: 30px;}
-
-   .Machine-score , span {color :#e90e0ecc;
+.your-score,
+span {
+    color: #717cdbcc;
     font-size: 30px;
-   }
+}
 
-    .result{font-size: 30px;color: #030303;}
+.Machine-score,
+span {
+    color: #e90e0ecc;
+    font-size: 30px;
+}
 
-
-   
-
-
+.result {
+    font-size: 30px;
+    color: #030303;
+}
